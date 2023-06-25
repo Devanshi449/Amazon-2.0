@@ -5,7 +5,7 @@ function getItems() {
         querySnapshot.forEach((doc) => {
 
             // console.log(`${doc.id} => ${doc.data()}`);
-            items.push({
+            items.push( {
                 id: doc.data().id,
                 image: doc.data().Image,
                 name: doc.data().Make,
